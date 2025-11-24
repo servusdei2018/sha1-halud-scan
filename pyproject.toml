@@ -1,0 +1,11 @@
+[project]
+name = "shai-hulud-scan"
+version = "0.1.0"
+description = "Scan GitHub for indicators of shai-halud compromise."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "click>=8.3.1",
+    "colorama>=0.4.6",
+    "requests>=2.32.5",
+]
